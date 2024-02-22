@@ -1,124 +1,83 @@
 <div align="center">
-    <img src="https://frappecloud.com/files/pos.png" height="128">
-    <h2>POS AWESOME</h2>
+    <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Project Logo">
+    <h1 align="center">POS Awesome: Powering Your Retail Operations</h1>
 </div>
 
-#### An open-source Point of Sale for [Erpnext](https://github.com/frappe/erpnext) using [Vue.js](https://github.com/vuejs/vue) and [Vuetify](https://github.com/vuetifyjs/vuetify)
+<p align="center">
+    Enhance your retail operations with POS Awesome, a robust, user-friendly, and open-source point of sale application designed for businesses of all sizes.
+    <br />
+    <a href="https://grow.empress.eco/">Explore the Docs</a>
+    ·
+    <a href="https://github.com/empress-eco/pos/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/empress-eco/pos/issues">Request Feature</a>
+</p>
 
----
+## About The Project
 
-### Main Features
+### 📖 Overview
+POS Awesome is a versatile retail solution that supports a wide range of features, from customer loyalty points to batch-based pricing. It is designed to make your retail operations more efficient and user-friendly.
 
-1. Supports Erpnext Version 14
-2. User friendly and provides a good user experience and speed of use
-3. The cashier has the option of either using list view or card view during sales transactions. Card view shows the images of the items
-4. Supports enqueue invoice submission after printing the receipt for faster processing
-5. Supports batch & serial numbering
-6. Supports batch based pricing
-7. Supports UOM specific barcode and pricing
-8. Supports sales of scale (weighted) products
-9. Ability to make returns from POS
-10. Supports Making returns for either cash or customer credit
-11. Supports using customer credit note for payment
-12. Supports credit sales
-13. Allows user to choose a due date for credit sales
-14. Supports customer loyalty points
-15. Shortcuts keys
-16. Supports Customer Discount
-17. Supports POS Offers
-18. Auto apply batches for bundle items
-19. Search and add items by Serial Number
-20. Create Sales Order from POS directly
-21. Supports template items with variants
-22. Supports multiple languages
-23. Supports Mpesa mobile payment
-24. POS Coupons
-25. Supports Referral Code
-26. Supports Customer and Customer Group price list
-27. Supports Sales Person
-28. Supports Delivery Charges
-29. Search and add items by Batch Number
-30. Accept new payments from customers against existing invoices
-31. Payments Reconciliation
+### 🌟 Key Features
+- User-friendly interface with list or card view options
+- Enqueue invoice submission and batch & serial numbering
+- UOM specific barcode and pricing
+- Process POS returns
+- Supports credit sales and customer loyalty points
+- Accepts new payments from customers against existing invoices
 
----
-
-### How to Install
-
-#### Frappe Cloud:
-
-One-click installing available if you are hosting on FC from [here](https://frappecloud.com/marketplace/apps/posawesome)
-
-#### Self Hosting:
-
-1. `bench get-app branch version-14 https://github.com/yrestom/POS-Awesome.git`
-2. `bench setup requirements`
-3. `bench build --app posawesome`
-4. `bench restart`
-5. `bench --site [your.site.name] install-app posawesome`
-6. `bench --site [your.site.name] migrate`
-
----
-
-### Support
-
-#### Frappe Cloud:
-
-If you are hosting on FC premium support is available [here](https://frappecloud.com/marketplace/apps/posawesome)
-
-#### Self Hosting:
-
-If you need premium support please email me [here](mailto:info@totrox.com)
-
-#### Community Support:
-
-Available in GitHub [discussions](https://github.com/yrestom/POS-Awesome/discussions)
-
----
-
-### New Features and Bug report:
-
-- Please Create Github Issue from [here](https://github.com/yrestom/POS-Awesome/issues/new/choose) after checking the existing issues
-- For paid features, you can email me [here](mailto:info@totrox.com)
-
----
-
-### How To Use:
-
-[POS Awesome Wiki](https://github.com/yrestom/POS-Awesome/wiki)
-
----
-
-### Shortcuts:
-
-- `CTRL or CMD + S` open payments
-- `CTRL or CMD + X` submit payments
-- `CTRL or CMD + D` remove first item from the top
-- `CTRL or CMD + A` expand first item from the top
-- `CTRL or CMD + E` focus on discount field
-
----
-
-### Dependencies:
-
-- [Frappe](https://github.com/frappe/frappe)
-- [Erpnext](https://github.com/frappe/erpnext)
+### 🛠 Built With
+POS Awesome is built using major frameworks and libraries:
 - [Vue.js](https://github.com/vuejs/vue)
 - [Vuetify.js](https://github.com/vuetifyjs/vuetify)
 
----
+## Getting Started
 
-### Contributing
+### Prerequisites
+You'll need to have Empress Version 14 installed to get started with POS Awesome.
 
-Will using for this the same guidelines from Erpnext
+### Installation
+To set up a development environment, follow these steps:
 
-1. [Issue Guidelines](https://github.com/frappe/erpnext/wiki/Issue-Guidelines)
-2. [Pull Request Requirements](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines)
+```sh
+# Clone the repository
+git clone https://github.com/empress-eco/pos.git
 
----
+# Navigate to the repository
+cd pos
+
+# Setup requirements
+bench setup requirements
+
+# Build the app
+bench build --app posawesome
+
+# Restart the bench
+bench restart
+
+# Install the app
+bench --site [your.site.name] install-app posawesome
+
+# Migrate the site
+bench --site [your.site.name] migrate
+```
+
+## Usage
+For detailed usage instructions, visit the [POS Awesome Documentation](https://grow.empress.eco/).
+
+## Contributing
+We welcome contributions! Here's how you can contribute:
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License and Acknowledgments
 
 ### License
+This project is under the MIT License. Your contributions are also licensed under the MIT License.
 
-GNU/General Public License (see [license.txt](https://github.com/yrestom/POS-Awesome/blob/master/license.txt))
-
-The POS Awesome code is licensed as GNU General Public License (v3)
+### Acknowledgments
+We extend our gratitude to [Empress](https://github.com/Empress/Empress) and [Empress](https://github.com/Empress/Empress) developers and contributors for laying the groundwork for this project. We appreciate their innovative work and continued support.
